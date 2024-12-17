@@ -1,0 +1,16 @@
+body{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+
+    background: rgb(255, 255, 255);
+
+}
+h1{
+    display:flex;
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    margin: 20 px;
+}
