@@ -81,7 +81,6 @@
 }
 html {
 
-    height: 100%;
     max-width: 100%;
     scroll-behavior: smooth;
 }
@@ -165,6 +164,7 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .language-containers{
     border-radius: 25%;
@@ -200,7 +200,6 @@ p {
     /* Fades in after 4s */
 
 }
-
 .namePlate {
     width:50%;
     height:100%;
@@ -219,7 +218,7 @@ span {
     animation: waveAnim 1s ease-in-out var(--delay) forwards;
 }
 .top-right-container{
-    position: sticky;
+    position: fixed;
     top: 0;
     right: 20px;
     margin: 10px;
@@ -358,8 +357,5 @@ button {
     img{
         object-fit:contain;
         width:100%;
-    }
-    #navbar{
-
     }
 }
