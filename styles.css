@@ -351,6 +351,11 @@ button {
     body{
         font-size: 8px;;
     }
+    .top-right-container{
+        right:0px;
+        margin:0px;
+        max-width: 100%;
+    }
     .container-1 {
         flex-direction: column;
     }
