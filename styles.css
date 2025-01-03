@@ -159,6 +159,15 @@ p {
 .container-4 a{
     color:var(--accent);
 }
+.language-title{
+    background-color: var(--base-variant);
+    border-radius: 1em;
+    margin-top:3%; 
+    padding: 1em;
+
+    font-size:3em;
+    box-shadow: 0px .25em .5em .25em var(--accent);
+}
 .language-box{
     display: flex;
     flex-direction: row;
@@ -172,7 +181,7 @@ p {
     padding:1em;
     aspect-ratio: 1/1;
     background-color: var(--base-variant);
-    box-shadow: 0px 10px 10px 5px var(--accent);
+    box-shadow: 0px .5em .5em .25em var(--accent);
     display: flex;
     justify-content: center;
 }
@@ -349,7 +358,7 @@ button {
 }
 @media (max-width: 600px){
     body{
-        font-size: 8px;;
+        font-size: 8px;
     }
     .top-right-container{
         right:0px;
@@ -358,6 +367,10 @@ button {
     }
     .container-1 {
         flex-direction: column;
+    }
+    .container-2 {
+        padding-left:5%;
+        padding-right:5%;
     }
     img{
         object-fit:contain;
