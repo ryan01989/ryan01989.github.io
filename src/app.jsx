@@ -101,7 +101,7 @@ export default function App() {
 
         <div className="top-links">
           <a href="https://github.com/ryan01989" target="_blank" rel="noreferrer">Github</a>
-          <a href="/assets/Ryan.Resume2024Sep.pdf" target="_blank" rel="noreferrer">Resume</a>
+          <a href="/assets/Ryan.Resume.8.2025.pdf" target="_blank" rel="noreferrer">Resume</a>
           <a href="https://linkedin.com/in/dylan-ryan-116999326" target="_blank" rel="noreferrer">LinkedIn</a>
           <a href="/contact.html" target="_blank" rel="noreferrer">Contact</a>
         </div>
