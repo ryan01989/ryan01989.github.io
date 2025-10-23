@@ -85,6 +85,9 @@ export default function App() {
           <SpinningCircularText/>
           <div className="top-links-mobile">
             <SocialButtons></SocialButtons>
+            <p className="bottomText">
+              For more information, please visit the desktop version
+            </p>
           </div>
         </div>
       ) : (
@@ -123,7 +126,7 @@ export default function App() {
 
           <div className="top-links">
             <a href="https://github.com/ryan01989" target="_blank" rel="noreferrer">Github</a>
-            <a href="/assets/Ryan.Resume.8.2025.pdf" target="_blank" rel="noreferrer">Resume</a>
+            <a href="/assets/Ryan.Resume.10.2025.pdf" target="_blank" rel="noreferrer">Resume</a>
             <a href="https://linkedin.com/in/dylan-ryan-116999326" target="_blank" rel="noreferrer">LinkedIn</a>
             <a href="/contact.html" target="_blank" rel="noreferrer">Contact</a>
           </div>
@@ -202,7 +205,7 @@ export default function App() {
           />
         </div>
         <div className="dividingBarVeryBottomRight"></div>
-        <div style={{ position: 'absolute', top: '240%', width: '60%', left: '18%' }}>
+        <div style={{ position: 'absolute', top: '250%', width: '60%', left: '18%' }}>
           <h2 style={{ textAlign: "left" }}> Programming Proficiencies </h2>
           <p style={{ textAlign: "left" }}>
             Languages: Python, C++, Java, Javascript, HTML, CSS, MATLAB
@@ -213,7 +216,7 @@ export default function App() {
 
         </div>
         <div className="bottomBar"></div>
-        <p style={{ textAlign: "left", top: "263.2%", left: "13%", position: "absolute" }}>Last updated: August, 2025</p>
+        <p style={{ textAlign: "left", top: "273.2%", left: "13%", position: "absolute" }}>Last updated: October, 2025</p>
         </div>
       )}
     </>

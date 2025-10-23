@@ -124,7 +124,7 @@ h1 {
 
 .dividingBarBottom {
   width: 3.1%;
-  height: 80%;
+  height: 90%;
   position: absolute;
   top: 110%;
   background: var(--red);
@@ -133,7 +133,7 @@ h1 {
 
 .dividingBarBottom.left {
   width: 3.1%;
-  height: 90%;
+  height: 100%;
   position: absolute;
   top: 170%;
   background: var(--red);
@@ -144,7 +144,7 @@ h1 {
   width: 3.1%;
   height: 35%;
   position: absolute;
-  top: 225%;
+  top: 235%;
   background: var(--red);
   left: 84.103%;
 }
@@ -153,7 +153,7 @@ h1 {
   width: 74.203%;
   height: 3.1vw;
   position: absolute;
-  top: 260%;
+  top: 270%;
   background: var(--red);
   left: 13%;
 }
@@ -224,7 +224,7 @@ h1 {
 
 .curved-loop-jacket.hobbies {
   left: 71.32%;
-  top: 205%;
+  top: 215%;
   width: 25%;
   font-size: 14.8rem;
   z-index: -5;
@@ -309,7 +309,7 @@ h1 {
   width: 66%;
   position: absolute;
   left: 17%;
-  top: 190%;
+  top: 200%;
   z-index: -1;
 }
 
@@ -443,5 +443,8 @@ h1 {
   .link-button:hover {
     transform: scale(1.05);
     opacity: 0.95;
+  }
+  .bottomText {
+    font-size: 16px;
   }
 }
